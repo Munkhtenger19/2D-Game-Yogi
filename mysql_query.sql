@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS Yogi_bear;
+USE Yogi_bear;
+
+CREATE TABLE IF NOT EXISTS HighScore (
+Name VARCHAR(45),
+Score INT(11)
+)
